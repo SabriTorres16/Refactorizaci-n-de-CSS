@@ -233,9 +233,12 @@ body {
 
 /* メニューアイテムコンポーネント */
 .menu_list {
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.horizontal_menu_list {
+  display: flex; 
 }
 
 .menu_list_recommended {
@@ -244,12 +247,20 @@ body {
 }
 
 .menu_item {
-  width: 49%;
   display: flex;
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
 }
+
+.horizontal_menu_item {
+  width: 49%;
+}
+
+.vertical_menu_item {
+  width: 100%;
+}
+
 .menu_item_content {
   width: 45%;
   padding: 10px;
